@@ -30,10 +30,10 @@ button {
     border: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
-.button:hover{
+button:hover{
     opacity: 0.8;
     cursor: pointer;
-
+    color:black;
 }
 p {
     font-size: 35px;
@@ -47,7 +47,7 @@ p {
 }
 
 .maingame {
-    margin-top: 9vh;
+    margin-top: 8vh;
     margin-bottom: 9vh;
     width: 80vw;
     text-align: center;
@@ -73,6 +73,7 @@ p {
     font-weight: bold;
     font-size: 3rem;
     animation: flap 1s infinite linear;
+    margin-top: -1rem ;
     
 }
 
