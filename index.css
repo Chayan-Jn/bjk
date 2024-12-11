@@ -1,0 +1,83 @@
+body {
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 48px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: rgb(2, 2, 2);
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 1);
+}
+
+#balance {
+    color: #ffd700; 
+    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.6);
+}
+
+button {
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 60px;
+    width: 150px;
+    font-size: 1.5rem;
+    background: linear-gradient(to right, #b0b0b0, #8b8b8b); /* Gray gradient for button */
+    margin-top: 7px;
+    margin-bottom: 1rem;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    font-size: 35px;
+
+}
+
+#card-el, #dealer-card, #end-screen-player-cards, #end-screen-dealer-cards {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.7);
+}
+
+.maingame {
+    margin-top: 9vh;
+    margin-bottom: 9vh;
+    width: 80vw;
+    text-align: center;
+    border: solid 3px #333; 
+    background: linear-gradient(to left, rgba(0, 128, 0, 0.9), rgba(0, 0, 0, 0.7)); 
+    border: none;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+    color: #00bfff; 
+    text-shadow: 1px 1px 1px rgba(255, 215, 0, 0.8); 
+}
+
+
+#gimg{
+    height: 15rem;
+    width: 20rem;
+    border-radius: 10%;
+}
+
+.playAgain{
+    color:crimson;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 3rem;
+    animation: flap 1s infinite linear;
+    
+}
+
+@keyframes flap{
+    from{
+        color:rgb(183, 27, 58);
+    }
+    to{
+        color:red;
+    }
+}

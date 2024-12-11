@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Neonderthaw&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Kalnia+Glaze:wght@100..700&family=Neonderthaw&display=swap" rel="stylesheet">
+
+    <title>BlackJack</title>
+</head>
+<body>
+
+    
+    <div class="maingame">
+        <h2 id="balance">Balance: </h2>
+        <h1>BlackJack</h1>
+        <p id="message-el">Click start to play </p>
+        <p id ="dealer-card">Dealer Cards: </p>
+        <p id="dealer-sum">Dealer Sum: </p>
+    
+        <p id="card-el">Your Cards: </p>
+        <p id="sum-el">Your Sum:</p>
+        <button onclick="startGame()">Start Game</button>
+        <button onclick="newCard()">Hit</button>
+        <button onclick="userStand()">Stand</button>
+    </div>
+
+    <div class="end-screen" style="display: none;">
+        <h1 id="state">state</h1>
+        <h1 id="bal">Your Balance </h1>
+
+        <p id="end-screen-dealer-cards"></p>
+        <p id="end-dealer-sum"></p>
+
+        <p id="end-screen-player-cards"></p>
+        <p id="end-sum"></p>
+        
+        <span onclick="startGame()" class="dice"><img id="gimg" src="./emoji.avif"></span>
+        <p class="playAgain">Click on the image to play again</p>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
