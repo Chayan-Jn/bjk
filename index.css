@@ -30,10 +30,13 @@ button {
     border: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
+.button:hover{
+    opacity: 0.8;
+    cursor: pointer;
 
+}
 p {
     font-size: 35px;
-
 }
 
 #card-el, #dealer-card, #end-screen-player-cards, #end-screen-dealer-cards {
